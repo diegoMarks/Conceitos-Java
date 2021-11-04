@@ -1,0 +1,19 @@
+Equals e HashCode
+
+Método Equals
+1- Dentro do código o Equals passa na lista vendo se a representação que ele está verificando bate com a 
+descrição do objeto solicitado;
+2- É um método booleano que recebe um objeto e retorna se é true ou false;
+3- É utilizado para verificar se um objeto é igual ao outro;
+
+Método HashCode
+1- Separa os dados por uma característica para achar mais rápido (hash list);
+2- Ex: filas separadas pela letra inicial do nome de cada pessoa, ao adentrar a fila você seria atendido mais rápido porque 
+o atendente teria de procurar somente os itens já separados pela letra inicial do nome, sem necessidade de ter que olhar 
+todos os tipos de material de todas as pessoas que vão passar pelas filas;
+3- Retorna um int;
+4- O HashCode gera números e separa os dados para que os métodos hashSet e hashMap encontrem os dados mais fácil;
+5- O HashCode seria, no exemplo acima, o organizador da fila pela letra inicial dos nomes e os métodos hasMap e hashSet os
+atendentes que conseguem entregar os itens para às pessoas de maneira mais rápida;
+
+**Sempre que gerar um tem que obrigatóriamente gerar o outro, eles tem um contrato entre eles;
