@@ -1,0 +1,6 @@
+1- toString = toda vez que quiser representar um objeto através de uma String tem que utilizar o toString, é uma representação
+textual do objeto;
+2- This = é usado quando se quer ter a representação de um objeto através de uma String, é usado para chamar o toString;
+3- O comando System.out.println(); Já chama o método toString do objeto;
+4- O comando @Overrride que fica em cima de alguns comandos gerados automáticamente pela IDE significa que ele está sobrescrevendo
+sobre algum método;
