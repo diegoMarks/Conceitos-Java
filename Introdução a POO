@@ -1,0 +1,88 @@
+CLASSE:
+1- Uma classe define um TIPO de objeto, ou seja, representa a estrutura de dados: atributos, construtores, métodos;
+Ex:
+
+	public class Aluno{
+		
+	//Atributos
+	String nome;
+	String curso;
+	int idade;
+
+	
+
+	//Métodos
+	void assistirAula(){
+	//Definição do método
+}	
+
+	void fazerProva(){
+}
+
+
+	void calcularNota(){
+}
+
+
+}
+
+
+2- Exemplo da classe Aluno: temos os ATRIBUTOS: nome, idade e curso; 
+Métodos: assistirAula(), fazerProva() e calcularNota();
+
+3- Os MÉTODOS são criados definindo seu tipo de retorno, no caso o tipo "void", que significa vazio;
+
+
+
+==================================================================================================================
+
+
+
+OBJETO:
+
+1- Um objeto é uma instância criada a partir de uma determinada classe;
+
+public class AlunoTeste{
+	public static void main (String [] args){
+
+	//Instanciando o objeto:
+	Aluno aluno1 = new Aluno();
+
+
+	//Declarando valores aos atributos:
+	aluno1.nome = "Diego Marks";
+	aluno1.idade = 24;
+	aluno1.curso = "Java Web";
+}
+}
+
+
+2- A CLASSE AlunoTeste representa o objeto, dentro dela é preciso chamar o MÉTODO main;
+3- Após instânciar o objeto é possível declarar valores aos atributos e chamar os MÉTODOS;
+
+
+====================================================================================================
+
+
+ATRIBUTOS:
+
+1- Os atributos são às características de um objeto, também podem ser chamados de variáveis;
+2- Exemplos de atributos: nome, idade, peso, altura;
+
+
+======================================================================================================
+
+
+MÉTODOS:
+
+1- Os MÉTODOS são as ações que os objetos podem realizar;
+2- Exemplos de métodos: latir(), pular(), brincar();
+
+
+=======================================================================================================
+
+
+PARÂMETROS:
+
+Ex: void acelerar (int aceleracao) ----> Esse é o parâmetro {
+}
