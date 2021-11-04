@@ -1,0 +1,6 @@
+Declarações Públicas e Privadas:
+
+1- Para acessar o objeto se usa o . (ponto);
+Ex: aluno. //Aparecem as opções do objeto
+2- Por padrão o Java deixa os atributos como Private deixando possível acessar somente dentro da classe onde eles foram
+criados. Para acessar em outra classe tem que por Public na frente do atributo;
