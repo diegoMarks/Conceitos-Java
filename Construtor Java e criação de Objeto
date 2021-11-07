@@ -6,8 +6,8 @@ Istânciando Objeto para criação do Construtor:
 2- Não interessa a quantidade de OBJETOS que se tenha, a classe sempre será a mesma para se inserir neles.
 Por exemplo: ao criar um sistema para uma Escola, a classe seria "aluno", onde dentro dela ficariam instânciados os atributos
 dos alunos como: nome, idade, série, sexo, etc. Mas cada aluno individualmente é um OBJETO, ele puxa os atributos da classe
-"aluno" mas ao receber o atributo ele da às suas próprias características individuais ao ATRIBUTO recebido. Para finalizar,
-pode-se entender melhor assim: Um atributo de Aluno tem o atributo CPF, o CPF do aluno João é diferente do CPF do aluno Pedro
+"Aluno" mas ao receber o atributo ele da às suas próprias características individuais ao ATRIBUTO recebido. Para finalizar,
+pode-se entender melhor assim: Um atributo da classe Aluno pode ser CPF, o CPF do OBJETO aluno João é diferente do CPF do OBJETO aluno Pedro
 mas ambos recebem esse atributo da classe ALUNO e a modificam ao receber;
 3- Para construir um objeto primeiro tem que estar fora dele. Ir na classe Main, dentro do Main deve-se digitar o nome da 
 classe que se quer chamar. Por exemplo em uma classe "Aluno" para se fazer um objeto com ela deve se digitar 
@@ -18,13 +18,14 @@ Aluno aluno = new Aluno();
 
 Criação do Construtor:
 
-1- Após criar o objeto em outra classe você volta para a classe de onde ele foi tirado para ser criado e digita o nome da 
-Classe. Ao dar um CTRL + Space o Eclipse vai dar a opção de Aluno() - Constructor;
-2- O Construtor cria os dados na memória do computador sendo padrão do Java;
-3- Sempre que der um "new" ele chama o Construtor, se a gente não chamar o Java chama em "segundo plano";
-4- Para criar um objeto com valor padrão é só criar um contrutor e dentro dos parênteses dar um atributo a ele. Ao fazer
+1- O Construtor pode ser declarado antes de se criar o Objeto;
+2- Para criar o Construtor deve-se escrever o nome da classe e aparecerá a opção "Constructor";
+3- Para criar mais de um Construtor na classe deve-se passar parâmetros para eles;
+4- O Construtor cria os dados na memória do computador, sendo padrão do Java;
+5- Sempre que der um "new" ele chama o Construtor, se a gente não chamar o Java chama em "segundo plano";
+6-  Para criar um objeto com valor padrão é só criar um contrutor e dentro dos parênteses dar um atributo a ele. Ao fazer
 o objeto é so escolher o objeto com valor padrão definido;
 Ex: public Aluno(String nomePadrao){
 	nome = nomePadrao; //Digamos que já tenha sido feito o atributo nome
 }
-4.1- Para mais de um parâmetro dentro de um construtor é so colocar vírgula e ir adicionando; 
+7- Para mais de um parâmetro dentro de um construtor é so colocar vírgula e ir adicionando; 
