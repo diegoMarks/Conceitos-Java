@@ -1,0 +1,17 @@
+Métodos Getter e Setter
+
+1- Set é para adicionar ou receber dados para os atributos;
+2- Get é para resgatar ou obter o valor  do atributos;
+3- Para escolher os atributos no Java deve-se usar o comando "this.";
+3.1- O "." ponto em Java é utilizado para se entrar nas opções de um objeto ou classe. O this faz referência a classe então
+ao usar o "." ponto você estará chamando os atributos da classe para utilizar;
+4- Para resgatar o valor inserido pelo Set deve-se utilizar um método Get desta forma:
+public String getNome(){
+	return nome;
+}
+5- No exemplo, utilizamos o modificador de acesso public para que ele possa receber o método vindo de outra classe;
+6- O String deve ser utilizado pelo fato dele retornar um caracter do atributo setado;
+7- Após isso é utilizado o get, ao digitar get aparecerão todos os atributos que já foram setados;
+8- Ao selecionar o atributo ele ficará com getNome, veja que a nomenclatura do atributo começa com a letra maiúscula, após
+isso ele fecha o método com ();
+9- O comando ainda retornará algo, que é o atributo da classe;
