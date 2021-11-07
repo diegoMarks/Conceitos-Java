@@ -1,0 +1,12 @@
+1- Na classe Main, em baixo do objeto já insere uma String para cada atributo usado, após isso colocar o JOptionPane para 
+abrir uma caixa de diálogo, no System.out.println onde antes você inseria os dados de forma a executar o código e já ter 
+resultado pronto, ou já tinha dados passados como parâmetro no construtor, em vez disso, em baixo do objeto criado se 
+insere uma String com o nome do atributo seguido da opção do JOptionPane. Ex:
+String nome = JOptionPane.showInputDialog("Qual o nome do aluno?");
+1.1- Assim ao abrir a caixa de diálogo e digitar o nome a saída no System.out será o nome digitado, claro que para isso 
+devemos passar como parâmetro o nome da String na saída do System.out;
+2- Ao setar os métodos do JOptionPane, como ele transforma em String se tiver um valor int ele dará erro. Para resolver
+isso deve se usar o método Interger.valueOf(String) e dentro do String setar o atributo int que o sistema já converte para
+String o inteiro; 
+3- Caso precise transformar um double em String utiliza-se o comando Double.parseDouble(String) onde dentro da String você
+passa por parâmetro o inteiro a ser convertido;
